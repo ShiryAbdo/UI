@@ -2,14 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="v"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="com.example.shaymaa.freelance.activities.MainActivity">
 <include layout="@layout/toolbar_main"/>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/category_recycler_view"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="80dp"
          android:scrollbars="none" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/choice_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/layout_facetype"
+        android:scrollbars="none" />
+
+
+    <ImageView
+        android:id="@+id/categoryFacetype"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:padding="2dp"
+        android:src="@drawable/cate_gender"
+        android:background="@color/colorPickedItem"
+        android:layout_margin="1dp"
+        />
 
 </LinearLayout>
