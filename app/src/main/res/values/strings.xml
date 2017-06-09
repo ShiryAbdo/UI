@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FreeLance</string>
+
+    <string-array name="accessoryName">
+        <item>Shirt</item>
+        <item>Pant</item>
+        <item>Overcoat</item>
+        <item>Gown</item>
+        <item>Hat</item>
+        <item>Tie</item>
+        <item>Bride</item>
+        <item>Handbag</item>
+        <item>Tees</item>
+        <item>Shoe</item>
+        <item>Cutshoe</item>
+    </string-array>
+
+</resources>
